@@ -1,0 +1,8 @@
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    unnecessary_const: true
+    use_rethrow_when_possible: true
+    prefer_final_in_for_each: true
+    prefer_final_locals: true
