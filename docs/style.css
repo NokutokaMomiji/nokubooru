@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
+
+.aldrich-regular {
+    font-family: "Aldrich", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+html {
+    background: #212121;
+    background: linear-gradient(180deg, rgba(33, 33, 33, 1) 0%, rgba(12, 12, 12, 1) 100%);
+}
+
+body {
+    font-family: "Aldrich", sans-serif;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    color: #fcfcfc;
+}
+
+#logo {
+    /* Certified CSS bullshit. */
+    filter: invert(70%) sepia(100%) saturate(1053%) hue-rotate(329deg) brightness(100%) contrast(101%);
+}
+
+#banner {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #333;
+    padding: 1em;
+    display: none;
+}
+
+#title {
+    color: #ff5252;
+}
+
+#banner a {
+    color: #4fc3f7;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#banner a:hover {
+    text-decoration: underline;
+}
